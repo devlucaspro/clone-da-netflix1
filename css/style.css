@@ -1,0 +1,219 @@
+/* gerais */
+body{
+    overflow-x: hidden;
+}
+h1{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+p{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* header */
+
+.bg-custom{
+    background: linear-gradient(to bottom, #000, transparent);
+}
+
+.bg-back{
+    background: url(../img/fundo-netflix.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* section1 */
+
+#tv h1{
+    font-size: 3em;
+}
+.section-config{
+    background-color: #000;
+    border-top: 2px solid rgb(54, 54, 54);
+    border-bottom: 2px solid rgb(54, 54, 54);
+}
+.padding-config{
+    padding: 120px 0;
+}
+.btn-red-netflix{
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+.btn-red-netflix:hover{
+    background-color: #f30914;
+    color: #fff;
+}
+
+.py-custom{
+    padding: 180px 0;
+}
+
+#principal input{
+    padding:15px 10px; 
+}
+.btn-red-netflix2{
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 10px;
+}
+.btn-red-netflix2:hover{
+    background-color: #f30914;
+    color: #fff;
+}
+
+/* ultima section */
+.details-custom{
+    font-size: 1.9rem;
+    padding: 10px 10px;
+}
+
+.h1-ultima-section{
+    font-size: 3.4rem;
+}
+
+
+/* perguntas section */
+.perguntas-section{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.input-perguntas{
+    font-size: 1.3rem;
+    padding: 15px 8px;
+    width: 400px;
+}
+.btn-red-netflix-perguntas{
+    padding: 18px 5px;
+    background-color: #e50914;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+}
+.btn-red-netflix-perguntas:hover{
+    background-color: #f30914;
+}
+
+.duvidas-p{
+    font-size: 1.3rem;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+footer ul li a{
+    color: rgb(78, 78, 78);
+    text-decoration: none;
+}
+footer ul li a:hover{
+    color: rgb(49, 49, 49);
+    text-decoration: underline;
+}
+
+
+
+
+
+/* footer */
+
+
+
+
+/* media queries */
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+@media (max-width: 344px){
+    
+    .img-header{
+        margin-left: 84px;
+    }
+    .ul-header{
+        margin-left: 65px;
+    }
+    .py-custom{
+        padding: 50px;
+    }
+    .btn-red-netflix2{
+        margin-top: 15px;
+        padding: 5px 10px;
+    }
+    .details-custom{
+        font-size: 1.2rem;
+    }
+    
+}
+
+/* custom */
+@media (min-width:345px) and (max-width: 425px){
+    .details-custom{
+        font-size: 1.3rem;
+    }
+}
+
+/* custom botao-perguntas */
+@media (max-width:991px){
+    .btn-red-netflix-perguntas{
+        margin-top: 15px;
+        padding: 10px 9px;
+    }
+    .input-perguntas{
+        width: 90%;
+    }
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #principal h1{
+        font-size: 3.4rem;
+    }
+    #principal h3{
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+    #principal p{
+        font-size: 1.3rem;
+    }
+    .select-custom{
+        padding: 5px 5px;
+    }
+    .ul-header{
+        margin-top: 10px;
+        margin-right: 30px;
+    }
+    .img-header, .navbar-brand{
+        margin-left: 50px;
+    }
+    #principal input{
+        width: 430px;
+        height: 65px;
+    }
+    .btn-red-netflix2{
+        width: 160px;
+        height: 65px;
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
